@@ -31,7 +31,7 @@ const appRoutes: Routes = [
 
 
   {path:'',redirectTo:'/',pathMatch:'full'},
-  { path: 'coinsvalue', component: CoinsvalueComponent },
+  // { path: 'coinsvalue', component: CoinsvalueComponent },
 ];
 
 @NgModule({
