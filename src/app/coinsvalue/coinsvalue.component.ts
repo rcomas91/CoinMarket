@@ -15,7 +15,7 @@ import { CoinsvalueService } from './coinsvalue.service';
 export class CoinsvalueComponent implements OnInit {
   
   dataSource=new MatTableDataSource<coin>();
-  displayedColumns = ['market_cap_rank','name','symbol','image','current_price','price_change_percentage_24h'];
+  displayedColumns = ['market_cap_rank','name','image','current_price','price_change_percentage_24h'];
    
 
       constructor(public cons:CoinsvalueService){}
